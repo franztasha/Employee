@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="loginapp.LoginController">
+   <children>
+      <Label layoutX="14.0" layoutY="21.0" text="DB Status" />
+      <Label fx:id="dbstatus" layoutX="74.0" layoutY="21.0" prefHeight="17.0" prefWidth="70.0" />
+      <TextField fx:id="username" layoutX="109.0" layoutY="83.0" prefHeight="25.0" prefWidth="189.0" promptText="username" />
+      <Label layoutX="20.0" layoutY="87.0" text="Username" />
+      <Label layoutX="22.0" layoutY="122.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="109.0" layoutY="118.0" prefHeight="25.0" prefWidth="189.0" promptText="password" />
+      <ComboBox fx:id="combobox" layoutX="109.0" layoutY="163.0" prefHeight="25.0" prefWidth="189.0" promptText="          Admin / Employee" />
+      <Button fx:id="loginButton" layoutX="109.0" layoutY="211.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="189.0" text="Login" />
+   </children>
+</AnchorPane>

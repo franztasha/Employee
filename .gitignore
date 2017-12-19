@@ -1,0 +1,10 @@
+
+*.xml
+out/production/Employee/dbUtil/dbConnection.class
+out/production/Employee/loginapp/login.fxml
+out/production/Employee/loginapp/LoginApp.class
+out/production/Employee/loginapp/LoginController.class
+out/production/Employee/loginapp/LoginModel.class
+out/production/Employee/loginapp/option.class
+Employee.iml
+.idea/description.html
